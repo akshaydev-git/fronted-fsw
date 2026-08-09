@@ -12,7 +12,7 @@ interface DropdownOption {
   icon: string;
 }
 
-const API_BASE_URL = "http://127.0.0.1:5000";
+const API_BASE_URL = "https://backend-fsw.onrender.com";
 
 const steps: StepConfig[] = [
   {
