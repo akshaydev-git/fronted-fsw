@@ -250,7 +250,7 @@ if (!/^[A-Za-z0-9._%+-]+@grietcollege\.com$/i.test(email)) {
     otpStatus.textContent = "";
     clearOtpInputs();
     setEmailMessage(
-      "OTP sent successfully. Check your GRIET college email.",
+      "OTP sent successfully. Check your GRIET college email. Note:Sometimes it may be in spam folder",
       "success"
     );
     setOtpTimer(120);
