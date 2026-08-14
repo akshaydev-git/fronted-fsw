@@ -1,584 +1,175 @@
-
 <!DOCTYPE html>
 <html lang="en" class="scroll-smooth">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
-    <title>Free Software Wing — Recruitment 2026 Application</title>
-    <meta
-      name="description"
-      content="Apply to Free Software Wing Recruitment 2026. Fill the application to join a student community of builders, innovators, and open source contributors."
-    />
-    <meta property="og:title" content="Free Software Wing — Recruitment 2026" />
-    <meta
-      property="og:description"
-      content="Join a community of passionate builders, innovators and open source enthusiasts. Apply for FSW Recruitment 2026."
-    />
-    <meta property="og:type" content="website" />
-    <meta name="twitter:card" content="summary_large_image" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
+  <title>Free Software Wing — Registrations Closed</title>
+  <meta name="description" content="Free Software Wing Recruitment 2026 registrations are now closed." />
 
-    <!-- Favicon -->
-    <link rel="icon" type="image/png" href="/fsw-logo.png" />
+  <link rel="icon" type="image/png" href="/fsw-logo.png" />
 
-    <!-- Google Fonts: Plus Jakarta Sans & Instrument Serif -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Plus+Jakarta+Sans:ital,wght@0,300..800;1,300..800&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body class="min-h-screen bg-[#040814] text-foreground antialiased overflow-x-hidden">
-    <!-- Navbar (Matching Screenshot + GRIET College Logo) -->
-    <header class="sticky top-0 z-50 border-b border-white/5 bg-[#040814]/90 backdrop-blur-xl">
-      <div class="mx-auto flex max-w-6xl items-center justify-between px-4 py-3.5 sm:px-6">
-        <!-- Logos & Brand Title -->
-        <a href="#" class="flex items-center gap-3 group">
-          <div class="flex items-center gap-2">
-            <img src="/fsw-logo.png" alt="Free Software Wing Logo" class="size-8 sm:size-9 rounded-xl bg-white p-1 shadow-md object-contain transition-transform group-hover:scale-105" />
-            <span class="h-5 w-px bg-white/20"></span>
-            <img src="/griet-logo.png" alt="GRIET College Logo" class="size-8 sm:size-9 rounded-full bg-white p-0.5 shadow-md object-contain transition-transform group-hover:scale-105" />
-          </div>
-          <div>
-            <span class="block text-xs font-bold text-white leading-none sm:text-sm">Free Software Wing</span>
-            <span class="block text-[0.625rem] font-medium text-slate-400 mt-0.5 sm:text-[0.6875rem]">GRIET • Recruitment 2026</span>
-          </div>
-        </a>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Plus+Jakarta+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+    rel="stylesheet"
+  />
 
-        <!-- Desktop Navigation -->
-        <nav class="hidden md:flex items-center gap-8 text-sm font-medium text-slate-300">
-          <a href="#overview" class="text-white hover:text-blue-400 transition-colors">Overview</a>
-          <a href="#apply" class="hover:text-white transition-colors">Application</a>
-          <a href="#contact" class="hover:text-white transition-colors">Contact</a>
-        </nav>
+  <script src="https://cdn.tailwindcss.com"></script>
 
-        <!-- Right Action Button (Hidden on Mobile) -->
-        <a href="#apply" class="hidden sm:inline-flex items-center gap-2 rounded-xl bg-blue-600 px-4 py-2 sm:px-5 sm:py-2.5 text-xs font-bold text-white shadow-lg shadow-blue-600/30 transition-all hover:bg-blue-500 hover:scale-105">
-          <span>Apply Now</span>
-          <svg class="size-3.5" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
-          </svg>
-        </a>
-      </div>
-    </header>
+  <style>
+    body {
+      font-family: "Plus Jakarta Sans", sans-serif;
+    }
 
-    <!-- Overview Hero Section (Clean Card without Stats Bar) -->
-    <section id="overview" class="relative overflow-hidden bg-[#040814] py-8 sm:py-14 text-white">
-      <!-- Glow ambient background spots -->
-      <div class="pointer-events-none absolute -left-24 top-1/4 size-[32rem] rounded-full bg-blue-600/20 blur-[100px] animate-pulse-glow"></div>
-      <div class="pointer-events-none absolute right-0 top-10 size-[32rem] rounded-full bg-indigo-600/20 blur-[100px] animate-pulse-glow"></div>
+    .font-display {
+      font-family: "Instrument Serif", serif;
+    }
 
-      <div class="relative mx-auto max-w-5xl px-4 sm:px-6">
-        
-        <!-- Main Card Container with Micro Grid Dots Background -->
-        <div class="relative overflow-hidden rounded-[2.5rem] border border-blue-500/20 bg-[#090f1f]/90 p-6 sm:p-12 lg:p-14 shadow-2xl backdrop-blur-2xl text-left grid-dots">
-          
-          <!-- Blue Ambient Radial Glow in Top Right of Card -->
-          <div class="pointer-events-none absolute -right-24 -top-24 size-96 rounded-full bg-blue-500/15 blur-3xl"></div>
+    .grid-dots {
+      background-image: radial-gradient(rgba(96, 165, 250, 0.12) 1px, transparent 1px);
+      background-size: 22px 22px;
+    }
 
-          <!-- Top Pill Badge -->
-          <div class="relative z-10">
-            <span class="inline-flex items-center gap-2 rounded-full border border-blue-500/30 bg-blue-950/60 px-4 py-1.5 text-[0.6875rem] font-bold tracking-widest text-blue-300 uppercase backdrop-blur-md">
-              <span class="size-2 rounded-full bg-blue-400 animate-pulse"></span>
-              OPEN FOR RECRUITMENT 2026
-            </span>
-          </div>
+    @keyframes pulse-glow {
+      0%, 100% { opacity: .45; transform: scale(1); }
+      50% { opacity: .7; transform: scale(1.05); }
+    }
 
-          <!-- Logo Emblem Showcase -->
-          <div class="relative z-10 mt-8">
-            <div class="inline-block relative">
-              <div class="absolute inset-0 rounded-2xl bg-blue-500/30 blur-lg"></div>
-              <img
-                src="/fsw-logo.png"
-                alt="Free Software Wing Logo"
-                class="relative size-20 sm:size-24 rounded-2xl bg-white p-3 shadow-2xl border border-white/20 object-contain"
-              />
-            </div>
-          </div>
+    .animate-pulse-glow {
+      animation: pulse-glow 5s ease-in-out infinite;
+    }
+  </style>
+</head>
 
-          <!-- Main Title Block -->
-          <div class="relative z-10 mt-8">
-            <h1 class="font-display text-4xl font-extrabold tracking-tight text-white sm:text-6xl lg:text-7xl leading-none">
-              Free Software Wing
-            </h1>
-            <div class="mt-3 flex items-center min-h-[2.5rem] sm:min-h-[3.5rem]">
-              <span id="typing-text" class="font-display text-2xl font-extrabold sm:text-4xl lg:text-5xl bg-gradient-to-r from-blue-400 via-indigo-300 to-purple-400 bg-clip-text text-transparent"></span>
-              <span class="ml-1.5 inline-block h-6 w-1 sm:h-9 sm:w-1.5 rounded-full bg-blue-400 animate-pulse"></span>
-            </div>
-            <p class="mt-4 max-w-xl text-sm sm:text-base text-slate-300 leading-relaxed font-normal">
-              A student community at GRIET building open-source projects, organizing impactful events, and growing future tech leaders.
-            </p>
-          </div>
+<body class="min-h-screen overflow-x-hidden bg-[#040814] text-white antialiased">
 
-          <!-- Domain Pill Buttons Matrix -->
-          <div class="relative z-10 mt-8 space-y-3 max-w-3xl">
-            <!-- Row 1 -->
-            <div class="flex flex-wrap items-center gap-3">
-              <span class="inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/5 px-4 py-2 text-xs font-semibold text-slate-200 backdrop-blur-sm transition-all duration-200 cursor-pointer hover:border-blue-400 hover:bg-blue-500/20 hover:text-white hover:scale-105">
-                <span class="text-blue-400 font-mono font-bold">&lt;/&gt;</span> Technical
-              </span>
-              <span class="inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/5 px-4 py-2 text-xs font-semibold text-slate-200 backdrop-blur-sm transition-all duration-200 cursor-pointer hover:border-purple-400 hover:bg-purple-500/20 hover:text-white hover:scale-105">
-                <svg class="size-3.5 text-purple-400" fill="currentColor" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.02 0-1.41l-2.34-2.34c-.39-.39-1.02-.39-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83zM3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25z"/></svg> Design
-              </span>
-              <span class="inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/5 px-4 py-2 text-xs font-semibold text-slate-200 backdrop-blur-sm transition-all duration-200 cursor-pointer hover:border-indigo-400 hover:bg-indigo-500/20 hover:text-white hover:scale-105">
-                <svg class="size-3.5 text-indigo-400" fill="currentColor" viewBox="0 0 24 24"><path d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5c-1.66 0-3 1.34-3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5C6.34 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z"/></svg> PR & Social Media
-              </span>
-              <span class="inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/5 px-4 py-2 text-xs font-semibold text-slate-200 backdrop-blur-sm transition-all duration-200 cursor-pointer hover:border-emerald-400 hover:bg-emerald-500/20 hover:text-white hover:scale-105">
-                <svg class="size-3.5 text-emerald-400" fill="currentColor" viewBox="0 0 24 24"><path d="M19 4h-1V2h-2v2H8V2H6v2H5c-1.11 0-1.99.9-1.99 2L3 20c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 16H5V10h14v10zm0-12H5V6h14v2z"/></svg> Events
-              </span>
-            </div>
-
-            <!-- Row 2 -->
-            <div class="flex flex-wrap items-center gap-3">
-              <span class="inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/5 px-4 py-2 text-xs font-semibold text-slate-200 backdrop-blur-sm transition-all duration-200 cursor-pointer hover:border-sky-400 hover:bg-sky-500/20 hover:text-white hover:scale-105">
-                <svg class="size-3.5 text-sky-400" fill="currentColor" viewBox="0 0 24 24"><path d="M14 2H6c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6zm2 16H8v-2h8v2zm0-4H8v-2h8v2zm-3-5V3.5L18.5 9H13z"/></svg> Documentation
-              </span>
-              <span class="inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/5 px-4 py-2 text-xs font-semibold text-slate-200 backdrop-blur-sm transition-all duration-200 cursor-pointer hover:border-cyan-400 hover:bg-cyan-500/20 hover:text-white hover:scale-105">
-                <svg class="size-3.5 text-cyan-400" fill="currentColor" viewBox="0 0 24 24"><path d="M20 8h-3V4H3c-1.1 0-2 .9-2 2v11h2c0 1.66 1.34 3 3 3s3-1.34 3-3h6c0 1.66 1.34 3 3 3s3-1.34 3-3h2v-5l-3-4zM6 18.5c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5zm13.5-9l1.96 2.5H17V9.5h2.5zm-1 9c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5z"/></svg> Logistics
-              </span>
-              <span class="inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/5 px-4 py-2 text-xs font-semibold text-slate-200 backdrop-blur-sm transition-all duration-200 cursor-pointer hover:border-pink-400 hover:bg-pink-500/20 hover:text-white hover:scale-105">
-                <svg class="size-3.5 text-pink-400" fill="currentColor" viewBox="0 0 24 24"><path d="M12 3c-4.97 0-9 4.03-9 9 0 2.12.74 4.07 1.97 5.61L4.35 19.4c-.39.39-.39 1.02 0 1.41.39.39 1.02.39 1.41 0l1.9-1.9C9.25 19.53 10.58 20 12 20c4.97 0 9-4.03 9-9s-4.03-9-9-9zm-4 9c-.83 0-1.5-.67-1.5-1.5S7.17 9 8 9s1.5.67 1.5 1.5S8.83 12 8 12zm4 0c-.83 0-1.5-.67-1.5-1.5S11.17 9 12 9s1.5.67 1.5 1.5S12.83 12 12 12zm4 0c-.83 0-1.5-.67-1.5-1.5S15.17 9 16 9s1.5.67 1.5 1.5S16.83 12 16 12z"/></svg> Arts
-              </span>
-            </div>
-          </div>
-
-          <!-- Apply Now CTA Button -->
-          <div class="relative z-10 mt-9">
-            <a
-              href="#apply"
-              class="inline-flex items-center gap-2.5 rounded-2xl bg-blue-600 px-7 py-3.5 text-sm font-bold text-white shadow-xl shadow-blue-600/40 transition-all duration-200 hover:bg-blue-500 hover:scale-105"
-            >
-              <span>Apply Now</span>
-              <svg class="size-4" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
-              </svg>
-            </a>
-          </div>
-
+  <!-- Navbar -->
+  <header class="sticky top-0 z-50 border-b border-white/5 bg-[#040814]/90 backdrop-blur-xl">
+    <div class="mx-auto flex max-w-6xl items-center justify-between px-4 py-3.5 sm:px-6">
+      <a href="#" class="group flex items-center gap-3">
+        <div class="flex items-center gap-2">
+          <img
+            src="/fsw-logo.png"
+            alt="Free Software Wing Logo"
+            class="size-8 rounded-xl bg-white p-1 object-contain shadow-md transition-transform group-hover:scale-105 sm:size-9"
+          />
+          <span class="h-5 w-px bg-white/20"></span>
+          <img
+            src="/griet-logo.png"
+            alt="GRIET College Logo"
+            class="size-8 rounded-full bg-white p-0.5 object-contain shadow-md transition-transform group-hover:scale-105 sm:size-9"
+          />
         </div>
 
-      </div>
-    </section>
+        <div>
+          <span class="block text-xs font-bold leading-none text-white sm:text-sm">
+            Free Software Wing
+          </span>
+          <span class="mt-0.5 block text-[0.625rem] font-medium text-slate-400 sm:text-[0.6875rem]">
+            GRIET • Recruitment 2026
+          </span>
+        </div>
+      </a>
+    </div>
+  </header>
 
-    <!-- Mobile-First Application Form Container -->
-    <main id="apply" class="relative z-10 mx-auto -mt-6 max-w-7xl px-3 sm:-mt-14 sm:px-6 sm:pb-24 pb-12 w-full min-w-0">
-      <div class="rounded-2xl sm:rounded-3xl bg-card p-3 shadow-2xl shadow-navy/20 border border-border/80 sm:p-7 lg:p-10 min-w-0 w-full overflow-hidden">
-        <div class="grid gap-5 lg:grid-cols-[17rem_1fr] lg:gap-8 min-w-0 w-full">
-          
-          <!-- Progress Navigation Sidebar / Mobile Step Rail -->
-          <aside class="lg:border-r lg:border-border lg:pr-6 min-w-0 w-full overflow-hidden">
-            <h2 class="text-xs font-semibold tracking-wide uppercase text-muted-foreground sm:text-sm">Application Progress</h2>
-            
-            <!-- Progress Bar -->
-            <div class="mt-2.5">
-              <div class="h-2 w-full overflow-hidden rounded-full bg-muted">
-                <div id="progress-bar" class="h-full rounded-full bg-brand transition-all duration-300" style="width: 20%;"></div>
-              </div>
-              <p id="progress-text" class="mt-1.5 text-right text-[0.6875rem] font-semibold text-muted-foreground sm:text-xs">
-                20% Completed
-              </p>
-            </div>
+  <!-- Closed Registration Section -->
+  <main class="relative flex min-h-[calc(100vh-73px)] items-center justify-center overflow-hidden px-4 py-12 sm:px-6">
 
-            <!-- Nav Step List -->
-            <ol id="step-nav-list" class="mt-4 flex gap-2 overflow-x-auto pb-1.5 no-scrollbar lg:block lg:space-y-1.5 lg:overflow-visible lg:pb-0 w-full min-w-0">
-              <!-- Dynamically populated via JS -->
-            </ol>
+    <!-- Ambient background -->
+    <div class="pointer-events-none absolute -left-40 top-1/4 size-[30rem] rounded-full bg-blue-600/15 blur-[110px] animate-pulse-glow"></div>
+    <div class="pointer-events-none absolute -right-40 top-1/3 size-[30rem] rounded-full bg-indigo-600/15 blur-[110px] animate-pulse-glow"></div>
 
-            <div class="mt-6 hidden rounded-2xl bg-accent/60 p-4 border border-accent lg:block">
-              <div class="flex items-center gap-2 text-sm font-semibold text-accent-foreground">
-                <svg class="size-4 shrink-0 text-brand" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z" />
+    <div class="relative w-full max-w-3xl">
+
+      <!-- Main card -->
+      <div class="grid-dots relative overflow-hidden rounded-[2rem] border border-blue-500/20 bg-[#090f1f]/95 p-7 text-center shadow-2xl backdrop-blur-2xl sm:rounded-[2.5rem] sm:p-14">
+
+        <div class="pointer-events-none absolute -right-24 -top-24 size-80 rounded-full bg-blue-500/10 blur-3xl"></div>
+        <div class="pointer-events-none absolute -bottom-32 -left-24 size-80 rounded-full bg-indigo-500/10 blur-3xl"></div>
+
+        <div class="relative z-10">
+
+          <!-- Logo -->
+          <div class="mx-auto flex size-20 items-center justify-center rounded-2xl bg-white p-3 shadow-2xl ring-1 ring-white/20 sm:size-24">
+            <img
+              src="/fsw-logo.png"
+              alt="Free Software Wing Logo"
+              class="size-full object-contain"
+            />
+          </div>
+
+          <!-- Status -->
+          <div class="mt-7 inline-flex items-center gap-2 rounded-full border border-red-400/20 bg-red-500/10 px-4 py-1.5 text-[0.6875rem] font-bold uppercase tracking-widest text-red-300">
+            <span class="size-2 rounded-full bg-red-400"></span>
+            Registrations Closed
+          </div>
+
+          <!-- Heading -->
+          <h1 class="mt-7 text-4xl font-extrabold tracking-tight text-white sm:text-6xl">
+            Applications are closed.
+          </h1>
+
+          <p class="mx-auto mt-4 max-w-xl text-sm leading-relaxed text-slate-300 sm:text-base">
+            Thank you for your interest in joining
+            <span class="font-semibold text-white">Free Software Wing</span>.
+            Recruitment 2026 registrations have now officially closed.
+          </p>
+
+          <!-- Message -->
+          <div class="mx-auto mt-7 max-w-lg rounded-2xl border border-white/10 bg-white/[0.03] p-5 text-left">
+            <div class="flex gap-3">
+              <div class="mt-0.5 flex size-8 shrink-0 items-center justify-center rounded-lg bg-blue-500/10 text-blue-400">
+                <svg class="size-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M12 22a10 10 0 1 0 0-20 10 10 0 0 0 0 20z" />
                 </svg>
-                <span>Your Privacy First</span>
-              </div>
-              <p class="mt-1 text-xs leading-relaxed text-muted-foreground">
-                All submitted information is strictly stored securely for club evaluation only.
-              </p>
-            </div>
-          </aside>
-
-          <!-- Step Form Main Area -->
-          <div class="rounded-xl sm:rounded-2xl border border-border bg-background p-3 sm:p-7 min-w-0 w-full">
-            
-            <!-- Dynamic Step Form -->
-            <form id="recruitment-form" novalidate>
-              
-              <!-- Step Header -->
-              <div class="flex items-center gap-3 border-b border-border pb-3.5">
-                <div id="step-icon-badge" class="flex size-9 sm:size-10 items-center justify-center rounded-xl bg-brand/10 text-brand shrink-0">
-                  <!-- SVG icon dynamically replaced -->
-                </div>
-                <div>
-                  <h3 id="step-title" class="font-display text-lg font-bold sm:text-2xl">Personal Details</h3>
-                  <p id="step-sub" class="text-xs text-muted-foreground sm:text-sm">Basic personal details.</p>
-                </div>
               </div>
 
-              <!-- Step 0: Personal Details -->
-              <div id="step-content-0" class="step-panel mt-5 grid gap-4 sm:grid-cols-2 sm:gap-5">
-                <div>
-                  <label for="fullName" class="label-req">Full Name <span class="text-destructive">*</span></label>
-                  <div class="relative mt-1.5">
-                    <svg class="pointer-events-none absolute left-3.5 top-1/2 size-4 -translate-y-1/2 text-muted-foreground" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-                      <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z" />
-                    </svg>
-                    <input id="fullName" name="fullName" type="text" required placeholder="Enter your full name" class="field" />
-                  </div>
-                </div>
-
-                <div>
-                  <label for="email" class="label-req">College Email Address <span class="text-destructive">*</span></label>
-
-                  <div class="mt-1.5 flex gap-2">
-                    <div class="relative min-w-0 flex-1">
-                      <svg class="pointer-events-none absolute left-3.5 top-1/2 size-4 -translate-y-1/2 text-muted-foreground" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
-                      </svg>
-                      <input id="email" name="email" type="email" required placeholder="yourcollegeemail@grietcollege.com" class="field pr-3.5" />
-                    </div>
-
-                    <button
-                      id="btn-send-otp"
-                      type="button"
-                      class="shrink-0 rounded-xl bg-brand px-3.5 py-2.5 text-xs font-bold text-brand-foreground shadow-sm transition-all hover:bg-brand/90 disabled:cursor-not-allowed disabled:opacity-50 sm:px-4 sm:text-sm"
-                    >
-                      Get OTP
-                    </button>
-                  </div>
-
-                  <!-- OTP verification area -->
-                  <div id="otp-section" class="mt-3 hidden rounded-2xl border border-border bg-accent/30 p-3.5 sm:p-4">
-                    <div class="flex items-center justify-between gap-3">
-                      <div>
-                        <p class="text-xs font-semibold text-foreground sm:text-sm">Verify your email</p>
-                        <p class="mt-0.5 text-[0.6875rem] text-muted-foreground sm:text-xs">
-                          Enter the 6-digit OTP sent to your college email address.
-                        </p>
-                      </div>
-                      <span id="otp-status" class="text-[0.6875rem] font-semibold"></span>
-                    </div>
-
-                    <div class="mt-3 flex gap-1.5 sm:gap-2">
-                      <input id="otp-1" maxlength="1" inputmode="numeric" autocomplete="one-time-code" class="field text-center px-0" aria-label="OTP digit 1" />
-                      <input id="otp-2" maxlength="1" inputmode="numeric" class="field text-center px-0" aria-label="OTP digit 2" />
-                      <input id="otp-3" maxlength="1" inputmode="numeric" class="field text-center px-0" aria-label="OTP digit 3" />
-                      <input id="otp-4" maxlength="1" inputmode="numeric" class="field text-center px-0" aria-label="OTP digit 4" />
-                      <input id="otp-5" maxlength="1" inputmode="numeric" class="field text-center px-0" aria-label="OTP digit 5" />
-                      <input id="otp-6" maxlength="1" inputmode="numeric" class="field text-center px-0" aria-label="OTP digit 6" />
-                    </div>
-
-                    <div class="mt-3 flex items-center justify-between gap-3">
-                      <button
-                        id="btn-verify-otp"
-                        type="button"
-                        class="rounded-xl bg-brand px-4 py-2 text-xs font-bold text-brand-foreground transition-all hover:bg-brand/90 disabled:cursor-not-allowed disabled:opacity-50"
-                      >
-                        Verify OTP
-                      </button>
-
-                      <div class="text-right text-[0.6875rem] sm:text-xs">
-                        <span id="otp-timer" class="text-muted-foreground">Resend available in 02:00</span>
-                        <button
-                          id="btn-resend-otp"
-                          type="button"
-                          class="ml-1 hidden font-semibold text-brand hover:underline"
-                        >
-                          Resend OTP
-                        </button>
-                      </div>
-                    </div>
-                  </div>
-
-                  <p id="email-verification-message" class="mt-1.5 hidden text-[0.6875rem] font-semibold sm:text-xs"></p>
-                </div>
-
-                <div>
-                  <label for="phone" class="label-req">Phone Number <span class="text-destructive">*</span></label>
-                  <div class="relative mt-1.5">
-                    <svg class="pointer-events-none absolute left-3.5 top-1/2 size-4 -translate-y-1/2 text-muted-foreground" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-                      <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-2.826-1.07-5.044-3.288-6.113-6.113l1.293-.97c.362-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" />
-                    </svg>
-                    <input id="phone" name="phone" type="tel" required value="+91 " placeholder="+91 98765 43210" class="field" />
-                  </div>
-                </div>
-
-                <!-- Custom Dropdown: Gender -->
-                <div>
-                  <label class="label-req">Gender <span class="text-destructive">*</span></label>
-                  <input type="hidden" id="gender" name="gender" required />
-                  <div class="custom-dropdown-container relative mt-1.5" data-target="gender" data-placeholder="👤 Select gender">
-                    <!-- Dynamic Trigger & Dropdown Menu -->
-                  </div>
-                </div>
-              </div>
-
-              <!-- Step 1: Academic Details -->
-              <div id="step-content-1" class="step-panel mt-5 hidden grid gap-4 sm:grid-cols-2 sm:gap-5">
-                <!-- Custom Dropdown: Branch / Department -->
-                <div class="sm:col-span-2">
-                  <label class="label-req">Branch / Department <span class="text-destructive">*</span></label>
-                  <input type="hidden" id="branch" name="branch" required />
-                  <div class="custom-dropdown-container relative mt-1.5" data-target="branch" data-placeholder="🏫 Select branch / department">
-                    <!-- Dynamic Trigger & Dropdown Menu -->
-                  </div>
-                </div>
-
-                <!-- Custom Dropdown: Year of Study -->
-                <div>
-                  <label class="label-req">Year of Study <span class="text-destructive">*</span></label>
-                  <input type="hidden" id="year" name="year" required />
-                  <div class="custom-dropdown-container relative mt-1.5" data-target="year" data-placeholder="🎓 Select year of study">
-                    <!-- Dynamic Trigger & Dropdown Menu -->
-                  </div>
-                </div>
-
-                <div>
-                  <label for="rollNo" class="label-req">Roll Number <span class="text-destructive">*</span></label>
-                  <input id="rollNo" name="rollNo" type="text" required placeholder="Enter your roll number" class="field-plain mt-1.5" />
-                </div>
-              </div>
-
-              <!-- Step 2: Domains Section -->
-              <div id="step-content-2" class="step-panel mt-5 hidden grid gap-4 sm:grid-cols-2 sm:gap-5">
-                <div class="sm:col-span-2 rounded-2xl bg-accent/40 p-3.5 border border-border">
-                  <p class="text-[0.6875rem] font-semibold uppercase tracking-wider text-brand sm:text-xs">Domain Preference Instructions</p>
-                  <p class="mt-1 text-xs text-muted-foreground leading-relaxed">
-                    Please select <strong>exactly 2 domains</strong> in order of preference. Your 1st choice domain will automatically be locked/disabled for your 2nd choice selection.
-                  </p>
-                </div>
-
-                <!-- Custom Dropdown: 1st Choice Domain -->
-                <div>
-                  <label class="label-req">1st Choice Domain <span class="text-destructive">*</span></label>
-                  <input type="hidden" id="domain1" name="domain1" required />
-                  <div class="custom-dropdown-container relative mt-1.5" data-target="domain1" data-placeholder="🎯 Select 1st domain preference">
-                    <!-- Dynamic Trigger & Dropdown Menu -->
-                  </div>
-                </div>
-
-                <!-- Custom Dropdown: 2nd Choice Domain -->
-                <div>
-                  <label class="label-req">2nd Choice Domain <span class="text-destructive">*</span></label>
-                  <input type="hidden" id="domain2" name="domain2" required />
-                  <div class="custom-dropdown-container relative mt-1.5" data-target="domain2" data-placeholder="📌 Select 2nd domain preference">
-                    <!-- Dynamic Trigger & Dropdown Menu -->
-                  </div>
-                </div>
-
-                <div class="sm:col-span-2 mt-1">
-                  <label for="whyDomain1" class="label-req">Why have you selected these domains? What made you interested in them?<span class="text-destructive">*</span></label>
-                  <textarea id="whyDomain1" name="whyDomain1" rows="3" required placeholder="Tell us what interested you in your selected domains." class="field-plain mt-1.5 resize-y"></textarea>
-                </div>
-
-                <div class="sm:col-span-2">
-                  <label for="whyDomain2" class="label-req">Are you currently a member of any other clubs or organizations? If yes, mention them.<span class="text-destructive">*</span></label>
-                  <textarea id="whyDomain2" name="whyDomain2" rows="3" required placeholder="Mention the clubs or organizations you are currently part of, if any." class="field-plain mt-1.5 resize-y"></textarea>
-                </div>
-              </div>
-
-              <!-- Step 3: Additional Questions -->
-              <div id="step-content-3" class="step-panel mt-5 hidden grid gap-4 sm:grid-cols-2 sm:gap-5">
-                <div class="sm:col-span-2">
-                  <label for="whyJoin" class="label-req">Why do you want to join Free Software Wing? <span class="text-destructive">*</span></label>
-                  <textarea id="whyJoin" name="whyJoin" rows="3" required placeholder="Share what motivates you to become a member of FSW." class="field-plain mt-1.5 resize-y"></textarea>
-                </div>
-
-                <div class="sm:col-span-2">
-                  <label for="skillsExperience" class="label-req">What relevant skills or past project experience do you bring? <span class="text-destructive">*</span></label>
-                  <textarea id="skillsExperience" name="skillsExperience" rows="3" required placeholder="Mention any technical tools, event experience, design tools, or communication skills you have." class="field-plain mt-1.5 resize-y"></textarea>
-                </div>
-
-                <div class="sm:col-span-2">
-                  <label for="academicBalance" class="label-req">How do you plan to balance club activities with your academic workload? <span class="text-destructive">*</span></label>
-                  <textarea id="academicBalance" name="academicBalance" rows="3" required placeholder="Tell us how you manage your time effectively." class="field-plain mt-1.5 resize-y"></textarea>
-                </div>
-              </div>
-
-              <!-- Step 4: Review & Submit -->
-              <div id="step-content-4" class="step-panel mt-5 hidden">
-                <div class="rounded-2xl border border-border bg-card p-3.5 sm:p-5">
-                  <h4 class="font-display text-sm sm:text-base font-bold text-foreground mb-3">Review Your Application</h4>
-                  
-                  <dl id="review-summary-list" class="divide-y divide-border text-xs sm:text-sm">
-                    <!-- Populated dynamically via JS -->
-                  </dl>
-                </div>
-
-                <div class="mt-4 rounded-2xl bg-accent/40 p-3.5 border border-border">
-                  <label class="flex items-start gap-2.5 cursor-pointer">
-                    <input id="confirmCheck" type="checkbox" required class="mt-0.5 size-4 rounded border-border text-brand focus:ring-brand shrink-0" />
-                    <span class="text-xs sm:text-sm text-foreground">
-                      I confirm that all details provided above are true to the best of my knowledge and I accept FSW's applicant terms.
-                    </span>
-                  </label>
-                </div>
-              </div>
-
-              <!-- Success State -->
-              <div id="step-success" class="mt-5 hidden flex-col items-center justify-center py-10 text-center">
-                <div class="flex size-14 sm:size-16 items-center justify-center rounded-full bg-emerald-500/10 text-emerald-500">
-                  <svg class="size-8 sm:size-10" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                  </svg>
-                </div>
-                <h3 class="mt-3.5 font-display text-xl sm:text-3xl font-bold">Application Submitted!</h3>
-                <p id="success-message-name" class="mt-2 max-w-md text-xs sm:text-base text-muted-foreground">
-                  Thank you for applying to Free Software Wing Recruitment 2026.
-                </p>
-                <div class="mt-5 rounded-2xl bg-muted/60 p-3.5 text-xs text-muted-foreground max-w-md">
-                  We've logged your application. Our recruitment team will evaluate your profile and contact you over email for interview scheduling.
-                </div>
-              </div>
-
-              <!-- Mobile-First Navigation Footer Actions -->
-              <div id="form-actions" class="mt-6 flex flex-row items-center gap-2.5 border-t border-border pt-4 sm:mt-8 sm:gap-3 sm:pt-5 sm:justify-between">
-                <button
-                  id="btn-back"
-                  type="button"
-                  class="inline-flex flex-1 items-center justify-center gap-1.5 rounded-xl border border-border px-4 py-3 text-xs font-semibold transition-all hover:bg-muted disabled:opacity-40 disabled:pointer-events-none sm:w-auto sm:flex-initial sm:px-5 sm:py-2.5 sm:text-sm"
-                >
-                  <svg class="size-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5L3 12m0 0l7.5-7.5M3 12h18" />
-                  </svg>
-                  Back
-                </button>
-
-                <button
-                  id="btn-next"
-                  type="submit"
-                  class="inline-flex flex-1 items-center justify-center gap-1.5 rounded-xl bg-brand px-5 py-3 text-xs font-bold text-brand-foreground shadow-lg shadow-brand/25 transition-all hover:bg-brand/90 hover:-translate-y-0.5 sm:w-auto sm:flex-initial sm:px-6 sm:py-2.5 sm:text-sm"
-                >
-                  <span id="btn-next-label">Next Step</span>
-                  <svg id="btn-next-icon" class="size-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
-                  </svg>
-                </button>
-              </div>
-
-            </form>
-          </div>
-        </div>
-
-        <!-- Recruitment Coordinators Contact Section -->
-        <div id="contact" class="mt-8 border-t border-border pt-6 sm:pt-8">
-          <div class="rounded-2xl border border-border bg-card p-4 sm:p-6 shadow-sm">
-            <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 border-b border-border pb-4">
               <div>
-                <h4 class="font-display text-base font-bold text-foreground sm:text-lg">Recruitment Coordinators</h4>
-                <p class="text-xs text-muted-foreground">Reach out directly if you have any questions about recruitment or domains.</p>
+                <p class="text-sm font-semibold text-white">Missed the deadline?</p>
+                <p class="mt-1 text-xs leading-relaxed text-slate-400 sm:text-sm">
+                  Keep an eye on our social pages for future opportunities, events, and announcements from FSW.
+                </p>
               </div>
-              <a href="mailto:freesoftwarewinggriet.fsw@gmail.com" class="inline-flex items-center gap-1.5 text-xs font-semibold text-brand hover:underline">
-                <svg class="size-4 shrink-0 text-brand" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
-                </svg>
-                freesoftwarewinggriet.fsw@gmail.com
-              </a>
-            </div>
-
-            <!-- Contact Cards Grid -->
-            <div class="mt-4 grid grid-cols-1 gap-3 sm:grid-cols-3 sm:gap-4">
-              
-              <!-- Contact 1: Varun -->
-              <a href="tel:+918919111953" class="group flex items-center justify-between rounded-xl border border-border/80 bg-background p-3.5 transition-all hover:border-brand hover:bg-accent/40 shadow-xs">
-                <div class="flex items-center gap-3">
-                  <div class="flex size-10 items-center justify-center rounded-xl bg-blue-500/10 shrink-0">
-                    <svg class="size-5 text-blue-500" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-                      <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-2.826-1.07-5.044-3.288-6.113-6.113l1.293-.97c.362-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" />
-                    </svg>
-                  </div>
-                  <div>
-                    <span class="block text-xs font-bold text-foreground sm:text-sm">Varun</span>
-                    <span class="block text-[0.6875rem] font-semibold text-muted-foreground sm:text-xs">+91 89191 11953</span>
-                  </div>
-                </div>
-                <svg class="size-4 text-muted-foreground group-hover:text-brand transition-colors shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-2.826-1.07-5.044-3.288-6.113-6.113l1.293-.97c.362-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" />
-                </svg>
-              </a>
-
-              <!-- Contact 2: Harshini -->
-              <a href="tel:+919704423515" class="group flex items-center justify-between rounded-xl border border-border/80 bg-background p-3.5 transition-all hover:border-brand hover:bg-accent/40 shadow-xs">
-                <div class="flex items-center gap-3">
-                  <div class="flex size-10 items-center justify-center rounded-xl bg-purple-500/10 shrink-0">
-                    <svg class="size-5 text-purple-500" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-                      <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-2.826-1.07-5.044-3.288-6.113-6.113l1.293-.97c.362-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" />
-                    </svg>
-                  </div>
-                  <div>
-                    <span class="block text-xs font-bold text-foreground sm:text-sm">Harshini</span>
-                    <span class="block text-[0.6875rem] font-semibold text-muted-foreground sm:text-xs">+91 97044 23515</span>
-                  </div>
-                </div>
-                <svg class="size-4 text-muted-foreground group-hover:text-brand transition-colors shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-2.826-1.07-5.044-3.288-6.113-6.113l1.293-.97c.362-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" />
-                </svg>
-              </a>
-
-              <!-- Contact 3: Revanth -->
-              <a href="tel:+917386325746" class="group flex items-center justify-between rounded-xl border border-border/80 bg-background p-3.5 transition-all hover:border-brand hover:bg-accent/40 shadow-xs">
-                <div class="flex items-center gap-3">
-                  <div class="flex size-10 items-center justify-center rounded-xl bg-emerald-500/10 shrink-0">
-                    <svg class="size-5 text-emerald-500" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-                      <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-2.826-1.07-5.044-3.288-6.113-6.113l1.293-.97c.362-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" />
-                    </svg>
-                  </div>
-                  <div>
-                    <span class="block text-xs font-bold text-foreground sm:text-sm">Revanth</span>
-                    <span class="block text-[0.6875rem] font-semibold text-muted-foreground sm:text-xs">+91 73863 25746</span>
-                  </div>
-                </div>
-                <svg class="size-4 text-muted-foreground group-hover:text-brand transition-colors shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-2.826-1.07-5.044-3.288-6.113-6.113l1.293-.97c.362-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" />
-                </svg>
-              </a>
-
-            </div>
-          </div>
-        </div>
-      </div>
-    </main>
-
-    <!-- Footer -->
-    <footer class="border-t border-border bg-card py-8 text-muted-foreground sm:py-10">
-      <div class="mx-auto max-w-7xl px-4 sm:px-6">
-        <div class="flex flex-col items-center justify-between gap-5 text-center sm:flex-row sm:text-left">
-          <div class="flex items-center gap-2.5">
-            <img src="/fsw-logo.png" alt="Free Software Wing Logo" class="size-7 sm:size-8 rounded-lg object-contain bg-white p-0.5 border border-border" />
-            <span class="h-4 w-px bg-border"></span>
-            <img src="/griet-logo.png" alt="GRIET Logo" class="size-7 sm:size-8 rounded-full object-contain bg-white p-0.5 border border-border" />
-            <div>
-              <span class="block text-xs font-semibold text-foreground sm:text-sm">Free Software Wing</span>
-              <span class="block text-[0.6875rem] text-muted-foreground">GRIET Student Chapter</span>
             </div>
           </div>
 
-          <div class="text-center sm:text-left">
-            <p class="text-[0.6875rem] sm:text-xs text-slate-400">
-              © 2026 Free Software Wing. Open Source & Community Driven.
-            </p>
-            <p class="mt-1 text-[0.6875rem] font-semibold text-blue-400">
-              Developed by Tech Team 💻
-            </p>
-          </div>
-
-          <div class="flex items-center gap-4">
-            <a href="https://www.instagram.com/fsw_griet/" target="_blank" rel="noopener noreferrer" class="hover:text-foreground transition-colors" aria-label="Instagram">
-              <svg class="size-4.5 sm:size-5" fill="currentColor" viewBox="0 0 24 24">
-                <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+          <!-- Social links -->
+          <div class="mt-8 flex flex-wrap items-center justify-center gap-3">
+            <a
+              href="https://www.instagram.com/fsw_griet/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="inline-flex items-center gap-2 rounded-xl border border-white/10 bg-white/5 px-4 py-2.5 text-xs font-semibold text-slate-200 transition hover:border-pink-400/40 hover:bg-pink-500/10 hover:text-white"
+            >
+              Instagram
+              <svg class="size-3.5" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.28-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162z"/>
               </svg>
             </a>
-            <a href="https://www.linkedin.com/company/free-software-wing/" target="_blank" rel="noopener noreferrer" class="hover:text-foreground transition-colors" aria-label="LinkedIn">
-              <svg class="size-4.5 sm:size-5" fill="currentColor" viewBox="0 0 24 24">
+
+            <a
+              href="https://www.linkedin.com/company/free-software-wing/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="inline-flex items-center gap-2 rounded-xl border border-white/10 bg-white/5 px-4 py-2.5 text-xs font-semibold text-slate-200 transition hover:border-blue-400/40 hover:bg-blue-500/10 hover:text-white"
+            >
+              LinkedIn
+              <svg class="size-3.5" fill="currentColor" viewBox="0 0 24 24">
                 <path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.46 10.9v8.37H9.25V10.9H6.46M7.86 6.74a1.6 1.6 0 1 0 0 3.2 1.6 1.6 0 0 0 0-3.2"/>
               </svg>
             </a>
           </div>
+
         </div>
       </div>
-    </footer>
 
-    <!-- Main TypeScript application logic -->
-    <script type="module" src="/src/main.ts"></script>
-  </body>
+      <p class="mt-6 text-center text-[0.6875rem] text-slate-500 sm:text-xs">
+        © 2026 Free Software Wing • GRIET Student Chapter
+      </p>
+    </div>
+  </main>
+
+</body>
 </html>
-
